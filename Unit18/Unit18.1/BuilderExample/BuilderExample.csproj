@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{DA736896-3E88-4E83-8088-685B3780FC27}</ProjectGuid>
+    <ProjectGuid>{B0000537-2C50-4D7A-A1BC-B64C90C5F2C0}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Unit18</RootNamespace>
-    <AssemblyName>Unit18</AssemblyName>
+    <RootNamespace>BuilderExample</RootNamespace>
+    <AssemblyName>BuilderExample</AssemblyName>
     <TargetFrameworkVersion>v4.8.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="BuildManager.cs" />
+    <Compile Include="Client.cs" />
+    <Compile Include="IBuilder.cs" />
+    <Compile Include="Product.cs" />
+    <Compile Include="ProductBuilder.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
