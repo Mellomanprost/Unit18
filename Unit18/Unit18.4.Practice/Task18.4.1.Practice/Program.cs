@@ -7,7 +7,6 @@ namespace Task18._4._1.Practice
     {
         static async Task Main(string[] args)
         {
-            // пример ссылки, видео - https://youtu.be/Jm29kLeWqDA
             Console.WriteLine("Вставьте ссылку на видео(например - https://youtu.be/Jm29kLeWqDA):");
             var videoUrl = Console.ReadLine();
             Console.WriteLine("Укажите имя файла для скачиваемого видео:");
